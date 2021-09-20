@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/popview_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/id_pop_show_pkgname"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/popup_item_bg_1"
+            android:padding="8dp"
+            android:src="@drawable/icon_pkgname" />
+
+        <ImageView
+            android:id="@+id/id_pop_show_all_pkgname"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/popup_item_bg_1"
+            android:padding="8dp"
+            android:src="@drawable/icon_allpkgname" />
+
+        <ImageView
+            android:id="@+id/id_pop_screenshot"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/popup_item_bg_1"
+            android:padding="8dp"
+            android:src="@drawable/icon_screenshot" />
+
+        <ImageView
+            android:id="@+id/id_pop_function4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/popup_item_bg_1"
+            android:padding="8dp"
+            android:src="@drawable/icon_other" />
+
+    </LinearLayout>
+
+</RelativeLayout>
